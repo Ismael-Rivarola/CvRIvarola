@@ -5,18 +5,18 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="40dp">
 
-        <!-- Icono y título: Estudios -->
         <ImageView
             android:id="@+id/iconStudies"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_school"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/studiesTitle"
@@ -39,7 +39,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="8dp" />
 
-        <!-- Icono y título: Experiencia -->
         <ImageView
             android:id="@+id/iconExperience"
             android:layout_width="24dp"
@@ -70,7 +69,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="8dp" />
 
-        <!-- Icono y título: Conocimientos -->
         <ImageView
             android:id="@+id/iconSkills"
             android:layout_width="24dp"
