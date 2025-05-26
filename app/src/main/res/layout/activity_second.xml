@@ -8,11 +8,11 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp">
+        android:padding="30dp">
 
         <ImageView
             android:id="@+id/iconStudies"
-            android:layout_width="24dp"
+            android:layout_width="50dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_school"
             app:layout_constraintStart_toStartOf="parent"
@@ -22,88 +22,88 @@
             android:id="@+id/studiesTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:text="Estudios"
-            android:textStyle="bold"
             android:textSize="18sp"
-            app:layout_constraintTop_toTopOf="@id/iconStudies"
+            android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@id/iconStudies"
-            android:layout_marginStart="8dp" />
+            app:layout_constraintTop_toTopOf="@id/iconStudies" />
 
         <TextView
             android:id="@+id/studiesText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Instituto Superior Villa del Rosario"
-            android:layout_marginTop="12dp"
             android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
-            app:layout_constraintTop_toBottomOf="@id/studiesTitle"
+            android:text="Instituto Superior Villa del Rosario"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/studiesTitle" />
 
         <ImageView
             android:id="@+id/iconExperience"
-            android:layout_width="24dp"
+            android:layout_width="50dp"
             android:layout_height="24dp"
             android:layout_marginTop="32dp"
             android:src="@drawable/ic_work"
-            app:layout_constraintTop_toBottomOf="@id/studiesText"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/studiesText" />
 
         <TextView
             android:id="@+id/experienceTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Experiencia"
-            android:textStyle="bold"
-            android:textSize="18sp"
             android:layout_marginStart="8dp"
-            app:layout_constraintTop_toTopOf="@id/iconExperience"
-            app:layout_constraintStart_toEndOf="@id/iconExperience" />
+            android:text="Experiencia"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/iconExperience"
+            app:layout_constraintTop_toTopOf="@id/iconExperience" />
 
         <TextView
             android:id="@+id/experienceText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Pasantías en GoodApps"
-            android:layout_marginTop="12dp"
             android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
-            app:layout_constraintTop_toBottomOf="@id/experienceTitle"
+            android:text="Pasantías en GoodApps"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/experienceTitle" />
 
         <ImageView
             android:id="@+id/iconSkills"
-            android:layout_width="24dp"
+            android:layout_width="50dp"
             android:layout_height="24dp"
             android:layout_marginTop="32dp"
             android:src="@drawable/ic_code"
-            app:layout_constraintTop_toBottomOf="@id/experienceText"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/experienceText" />
 
         <TextView
             android:id="@+id/skillsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Conocimientos"
-            android:textStyle="bold"
-            android:textSize="18sp"
             android:layout_marginStart="8dp"
-            app:layout_constraintTop_toTopOf="@id/iconSkills"
-            app:layout_constraintStart_toEndOf="@id/iconSkills" />
+            android:text="Conocimientos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/iconSkills"
+            app:layout_constraintTop_toTopOf="@id/iconSkills" />
 
         <TextView
             android:id="@+id/skillsText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=".NET, Visual Basic, C#, JavaScript"
-            android:layout_marginTop="12dp"
             android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
-            app:layout_constraintTop_toBottomOf="@id/skillsTitle"
+            android:text=".NET, Visual Basic, C#, JavaScript"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/skillsTitle" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
